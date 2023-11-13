@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 15%;
+  border-radius: 100px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 21.5vh;
+  margin: -8px;
+}
+
+h1 {
+  background-image: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px; /* Adiciona margem entre os botões */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid #f3f3f3; /* Cor da borda */
+  color: #fefefe; /* Cor do texto */
+  background-color: transparent; /* Fundo transparente */
+  transition: color 2s ease-in-out;
+}
+
+a:hover {
+  background: linear-gradient(to right, red, blue);
+  color: black;
+}
