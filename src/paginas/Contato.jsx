@@ -1,9 +1,12 @@
 import React from "react";
 
-const Contato = () => {
+function Contato() {
   return (
     <div>
-      <h1>página de Contato</h1>
+      <h1>Contato</h1>
+      <p>Contato da Pessoa</p>
     </div>
   );
-};
+}
+
+export default Contato;
